@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Carrito | Malva Bakery</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <div id="contenedor">
+
+        <!-- Header -->
+        <header>
+
+            <a href="../index.html"><!--
+             --><h1 id="logo">Malva Bakery</h1><!--
+         --></a>
+
+            <button class="hamburguesa" id="hamburguesa">&#9776;</button>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="tienda.html" class="pagina-seleccionada">HACÉ TU PEDIDO</a></li>
+                    <li><a href="nosotros.html">SOBRE MALVA</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+
+            <aside>
+                <ul>
+                    <li>
+                        <a href="carrito.html" class="link-carrito">
+                            <img src="../imagenes/shopping-bag-fill.png" alt="Carrito">
+                            <span class="contador-carrito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+        </header>
+
+
+        <!-- Sección Carrito -->
+        <section class="seccion-checkout">
+
+            <div class="titulo-checkout">
+                <h2>Tu carrito</h2>
+            </div>
+
+            <div class="checkout-grid">
+
+                <!-- Lista de productos -->
+                <div class="carrito-lista">
+
+                    <div id="carrito-lista-items"></div>
+
+                    <a href="tienda.html" class="seguir-comprando">← Seguir comprando</a>
+
+                </div>
+
+                <!-- Resumen -->
+                <div class="carrito-resumen">
+                    <h3 class="resumen-titulo">Resumen del pedido</h3>
+
+                    <div class="resumen-linea">
+                        <p>Subtotal</p>
+                        <p class="resumen-subtotal">$0</p>
+                    </div>
+
+                    <div class="resumen-linea">
+                        <p>Envío</p>
+                        <p class="resumen-envio">$0</p>
+                    </div>
+
+                    <div class="resumen-linea resumen-total">
+                        <p>Total</p>
+                        <p class="resumen-total-monto">$0</p>
+                    </div>
+
+                    <a href="pago.html" class="boton-checkout">CONTINUAR CON EL PAGO</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer">
+                <div>
+                    <img src="../imagenes/footer/malvacirculo.png.png" alt="Malva Bakery">
+                </div>
+                <div>
+                    <ul>
+                        <li class="bold">Malva Bakery</li>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="tienda.html">Hacé tu pedido</a></li>
+                        <li><a href="nosotros.html">Sobre Malva</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="bold">Información</li>
+                        <li>Términos y Condiciones</li>
+                        <li>Política de Reembolsos</li>
+                        <li>Política de Privacidad</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="redes">
+                        <li class="bold">Hablemos</li>
+                        <li>
+                            <a href="https://www.facebook.com/" title="Facebook"><img src="../imagenes/footer/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.tiktok.com/" title="Tik Tok"><img src="../imagenes/footer/tiktok.png" alt="Tik Tok"></a>
+                            <a href="https://www.whatsapp.com/" title="Whatsapp"><img src="../imagenes/footer/wpp.png" alt="Whatsapp"></a>
+                            <a href="https://www.instagram.com/" title="Instagram"><img src="../imagenes/footer/instagram.png" alt="Instagram"></a>
+                        </li>
+                        <li>malvabakery@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        const boton = document.getElementById('hamburguesa');
+        const menu = document.getElementById('nav');
+
+        boton.addEventListener('click', function() {
+            menu.classList.toggle('abierto');
+        });
+    </script>
+
+    <script src="../js/carrito.js"></script>
+
+</body>
+</html>

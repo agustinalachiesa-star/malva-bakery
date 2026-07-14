@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+   
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>
+        Hacé tu pedido
+    </title>
+
+
+    <link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+
+
+
+
+<body>
+   
+    <div id="contenedor">
+        <!-- Header -->
+        <header>
+               
+            <a href="../index.html"><!--
+                 --><h1 id="logo">Malva Bakery</h1><!--
+             --></a>
+
+             <button class="hamburguesa" id="hamburguesa">&#9776;</button>
+       
+            <nav id="nav">
+                <ul>
+                    <li><a href="../index.html">INICIO</a></li><!--
+                    --><li><a href="tienda.html">HACÉ TU PEDIDO</a></li><!--
+                    --><li><a href="nosotros.html">SOBRE MALVA</a></li><!--
+                    --><li><a href="#"  class="pagina-seleccionada">CONTACTO</a></li>
+               </ul>
+            </nav>
+
+
+            <aside>
+                <ul>
+                    <li><a href="tienda.html"><img src="../imagenes/shopping-bag-fill.png" alt="Carrito"></a></li>
+                </ul>
+            </aside>
+
+
+        </header>
+       
+       
+        <div class="contenedor-contacto">
+           
+            <div class="imagen">
+                <img src="../imagenes/contacto/contacto.jpg" alt="Malva Bakery">
+            </div>
+           
+           
+            <div class="formulario">
+               
+                    <h2>Contacto</h2><br>
+   
+                    <p>¿Tenés dudas? Llená el siguiente formulario y responderemos a tu consulta a la brevedad.</p><br>
+
+
+                    <p class="formulario-campo">Nombre</p>
+                    <p class="formulario-campo">Apellido</p>
+                    <p class="formulario-campo">Correo electrónico</p>
+                    <p class="formulario-campo">Teléfono</p>
+                    <p class="formulario-campo-consulta">Consulta</p>
+
+
+                    <p class="boton-enviar">ENVIAR</p>
+            </div>
+
+
+        </div>
+       
+       
+       
+       
+       
+       <!-- Footer -->
+         <footer>
+            <div class="footer">
+               
+                <div>
+                    <img src="../imagenes/footer/malvacirculo.png.png" alt="Malva Bakery">
+                </div>
+               
+                <div>
+                    <ul>
+                        <li class="bold">Malva Bakery</li>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="tienda.html">Hacé tu pedido</a></li>
+                        <li><a href="#">Sobre Malva</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+               
+                <div>
+                    <ul>
+                        <li class="bold">Información</li>
+                        <li>Términos y Condiciones</li>
+                        <li>Política de Reembolsos</li>
+                        <li>Política de Privacidad</li>
+                    </ul>
+                </div>
+               
+                <div>
+                    <ul class="redes">
+                        <li class="bold">Hablemos</li>
+                        <li><a href="https://www.facebook.com/" title="Facebook"><img src="../imagenes/footer/facebook.png" alt="Facebook"><a href="https://www.tiktok.com/" title="Tik Tok"><img src="../imagenes/footer/tiktok.png" alt="Tik Tok"></a><a href="https://www.whatsapp.com/" title="Whatsapp"><img src="../imagenes/footer/wpp.png" alt="Whatsapp"></a><a href="https://www.instagram.com/" title="Instagram"><img src="../imagenes/footer/instagram.png" alt="Instagram"></a></a></li>
+                        <li>malvabakery@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <script>
+    const boton = document.getElementById('hamburguesa');
+    const menu = document.getElementById('nav');
+    boton.addEventListener('click', function() {
+        menu.classList.toggle('abierto');
+    });
+</script>
+
+
+</body>
+
+
+</html>

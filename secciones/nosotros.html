@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+   
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>
+        Sobre Malva
+    </title>
+
+
+    <link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+
+
+
+
+<body>
+   
+    <div id="contenedor">
+        <!-- Header -->
+        <header>
+               
+            <a href="../index.html"><!--
+                 --><h1 id="logo">Malva Bakery</h1><!--
+             --></a>
+
+             <button class="hamburguesa" id="hamburguesa">&#9776;</button>
+       
+            <nav id="nav">
+                <ul>
+                    <li><a href="../index.html">INICIO</a></li><!--
+                    --><li><a href="tienda.html">HACÉ TU PEDIDO</a></li><!--
+                    --><li><a href="#"  class="pagina-seleccionada">SOBRE MALVA</a></li><!--
+                    --><li><a href="contacto.html">CONTACTO</a></li>
+               </ul>
+            </nav>
+
+
+            <aside>
+                <ul>
+                    <li><a href="tienda.html"><img src="../imagenes/shopping-bag-fill.png" alt="Carrito"></a></li>
+                </ul>
+            </aside>
+
+
+        </header>
+       
+       
+        <!-- Sección Sobre Malva -->
+       
+       
+            <div class="img-nosotros">
+                <img src="../imagenes/nosotros/pasteleria.jpg" alt="Malva Bakery">
+            </div>
+
+
+
+
+            <section class="seccion-texto">
+       
+                <h2>Sobre Malva</h2><br>
+       
+                <p>Somos Agus y Caro. Juntas creamos <strong>Malva Bakery</strong>, un emprendimiento argentino que nació en plena pandemia en 2020 con el objetivo de hacer un poco más felices a las personas con nuestros productos dulces y salados, más que nada para aquellos que no pueden consumir gluten.</p><br>
+                <p>En esa época uno hacía cosas para no aburrirse: entrenar en casa, anotarse a algún curso online, aprender un instrumento. A nosotras nos dieron ganas de cocinar y luego migró a la venta de nuestros productos.</p><br>
+                <p>Malva empezó y sigue siendo un emprendimiento autogestionado por nosotras. Nos encargamos de la compra de insumos, preparación, entrega y contacto con nuestros clientes a través de las redes. Con el tiempo la demanda fue tan grande que decidimos abrir nuestra propia tienda online para facilitar el proceso de compra y también poder alcanzar zonas que antes no alcanzabamos.</p><br>
+                <p>Hoy en Malva podés realizar tu pedido de productos dulces y salados, individuales o en cajas personalizadas para regalar, a través de nuestra tienda online de forma fácil y segura. Tené en cuenta que cada producto varía el tiempo de entrega.</p><br>
+                <p>¡Gracias por acompañarnos en este camino!</p><br>
+                <p>Agus y Caro</p>
+       
+            </section>
+       
+       
+            <div class="imagen">
+                <img src="../imagenes/nosotros/nosotras.jpg" alt="Agus y Caro">
+            </div>
+       
+       
+            <!-- Sección Seguinos en Instagram -->
+            <section class="seguinos">
+       
+                <p>Seguinos en Instagram <a href="https://www.instagram.com/">@malva.bakery</a> para conocer más acerca de nuestro trabajo</p>
+       
+            </section>
+       
+           
+         <!-- Footer -->
+         <footer>
+            <div class="footer">
+               
+                <div>
+                    <img src="../imagenes/footer/malvacirculo.png.png" alt="Malva Bakery">
+                </div>
+               
+                <div>
+                    <ul>
+                        <li class="bold">Malva Bakery</li>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="tienda.html">Hacé tu pedido</a></li>
+                        <li><a href="#">Sobre Malva</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+               
+                <div>
+                    <ul>
+                        <li class="bold">Información</li>
+                        <li>Términos y Condiciones</li>
+                        <li>Política de Reembolsos</li>
+                        <li>Política de Privacidad</li>
+                    </ul>
+                </div>
+               
+                <div>
+                    <ul class="redes">
+                        <li class="bold">Hablemos</li>
+                        <li><a href="https://www.facebook.com/" title="Facebook"><img src="../imagenes/footer/facebook.png" alt="Facebook"><a href="https://www.tiktok.com/" title="Tik Tok"><img src="../imagenes/footer/tiktok.png" alt="Tik Tok"></a><a href="https://www.whatsapp.com/" title="Whatsapp"><img src="../imagenes/footer/wpp.png" alt="Whatsapp"></a><a href="https://www.instagram.com/" title="Instagram"><img src="../imagenes/footer/instagram.png" alt="Instagram"></a></a></li>
+                        <li>malvabakery@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <script>
+    const boton = document.getElementById('hamburguesa');
+    const menu = document.getElementById('nav');
+    boton.addEventListener('click', function() {
+        menu.classList.toggle('abierto');
+    });
+</script>
+
+
+</body>
+
+
+</html>

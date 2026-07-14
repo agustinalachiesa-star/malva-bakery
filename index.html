@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malva Bakery | Gluten Free</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="contenedor">
+
+        <!-- Header -->
+        <header>
+
+            <a href="#"><!--
+             --><h1 id="logo">Malva Bakery</h1><!--
+         --></a>
+
+            <!-- Botón hamburguesa (solo visible en tablet y celular) -->
+            <button class="hamburguesa" id="hamburguesa">&#9776;</button>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#" class="pagina-seleccionada">INICIO</a></li>
+                    <li><a href="secciones/tienda.html">HACÉ TU PEDIDO</a></li>
+                    <li><a href="secciones/nosotros.html">SOBRE MALVA</a></li>
+                    <li><a href="secciones/contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+
+            <aside>
+                <ul>
+                    <li>
+                        <a href="secciones/carrito.html" class="link-carrito">
+                            <img src="imagenes/shopping-bag-fill.png" alt="Carrito">
+                            <span class="contador-carrito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+        </header>
+
+
+        <!-- Sección Frase+Botón+Imagen -->
+        <section>
+            <figure>
+                <figcaption>
+                    <h2>La vida es<span class="br-tablet"><br></span><span class="br-mobile"> </span> mejor <span class="br-mobile"><br></span><strong>sin gluten</strong></h2><br>
+                    <a href="secciones/tienda.html">¡QUIERO HACER MI PEDIDO!</a>
+                </figcaption>
+                <img src="imagenes/inicio/inicio3.jpg" alt="Malva Bakery">
+            </figure>
+        </section>
+
+
+        <!-- Sección Productos -->
+        <section class="seccion-productos">
+            <div class="titulo-subtitulo-productos">
+                <h2>Productos destacados</h2><br>
+                <p>Te mostramos algunas de nuestras opciones destacadas <strong>gluten free.</strong></p>
+            </div>
+
+            <div class="producto">
+                <img src="imagenes/tienda/alfajores.jpg" alt="Alfajores de maicena x6">
+                <h5>Alfajores de maicena x6</h5>
+                <p>$5.150</p>
+                <p class="boton" data-nombre="Alfajores de maicena x6" data-precio="5150" data-imagen="../imagenes/tienda/alfajores.jpg">AGREGAR AL CARRITO</p>
+            </div>
+
+            <div class="producto">
+                <img src="imagenes/tienda/brownie.jpg" alt="Brownies x6">
+                <h5>Brownies x6</h5>
+                <p>$8.100</p>
+                <p class="boton" data-nombre="Brownies x6" data-precio="8100" data-imagen="../imagenes/tienda/brownie.jpg">AGREGAR AL CARRITO</p>
+            </div>
+
+            <div class="producto">
+                <img src="imagenes/tienda/pastafrola.jpg" alt="Pastafrola chica">
+                <h5>Pastafrola chica</h5>
+                <p>$13.500</p>
+                <p class="boton" data-nombre="Pastafrola chica" data-precio="13500" data-imagen="../imagenes/tienda/pastafrola.jpg">AGREGAR AL CARRITO</p>
+            </div>
+
+            <div class="producto">
+                <img src="imagenes/tienda/torta.jpg" alt="Porción de torta">
+                <h5>Porción de torta</h5>
+                <p>$7.500</p>
+                <p class="boton" data-nombre="Porción de torta" data-precio="7500" data-imagen="../imagenes/tienda/torta.jpg">AGREGAR AL CARRITO</p>
+            </div>
+        </section>
+
+
+        <!-- Sección Personalizados -->
+        <section class="personalizado">
+            <figure>
+                <figcaption class="figcaption-personalizado">
+                    <h2>Pedí tu <strong>caja personalizada</strong></h2>
+                    <h3>Ideal para sorprender a alguien especial</h3>
+                    <a href="secciones/tienda.html">¡QUIERO VER MÁS!</a>
+                </figcaption>
+                <div class="imagen-caja">
+                    <img src="imagenes/inicio/caja2.jpg">
+                </div>
+            </figure>
+        </section>
+
+
+        <!-- Sección Newsletter -->
+        <section class="newsletter">
+            <h2>¡Unite a nuestro newsletter!</h2><br>
+            <p class="subtitulo-newsletter">Para enterarte de las <strong>novedades de Malva</strong> y recibir información acerca de cómo mantener una <strong>dieta gluten free.</strong></p><br>
+            <div>
+                <p class="newsletter-enviar">Dirección de correo electrónico</p><p class="boton-enviar-newsletter">ENVIAR</p>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer">
+                <div>
+                    <img src="imagenes/footer/malvacirculo.png.png" alt="Malva Bakery">
+                </div>
+                <div>
+                    <ul>
+                        <li class="bold">Malva Bakery</li>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="secciones/tienda.html">Hacé tu pedido</a></li>
+                        <li><a href="secciones/nosotros.html">Sobre Malva</a></li>
+                        <li><a href="secciones/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="bold">Información</li>
+                        <li>Términos y Condiciones</li>
+                        <li>Política de Reembolsos</li>
+                        <li>Política de Privacidad</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="redes">
+                        <li class="bold">Hablemos</li>
+                        <li>
+                            <a href="https://www.facebook.com/" title="Facebook"><img src="imagenes/footer/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.tiktok.com/" title="Tik Tok"><img src="imagenes/footer/tiktok.png" alt="Tik Tok"></a>
+                            <a href="https://www.whatsapp.com/" title="Whatsapp"><img src="imagenes/footer/wpp.png" alt="Whatsapp"></a>
+                            <a href="https://www.instagram.com/" title="Instagram"><img src="imagenes/footer/instagram.png" alt="Instagram"></a>
+                        </li>
+                        <li>malvabakery@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript para el menú hamburguesa -->
+    <script>
+        const boton = document.getElementById('hamburguesa');
+        const menu = document.getElementById('nav');
+
+        boton.addEventListener('click', function() {
+            menu.classList.toggle('abierto');
+        });
+    </script>
+
+    <script src="js/carrito.js"></script>
+
+</body>
+</html>
